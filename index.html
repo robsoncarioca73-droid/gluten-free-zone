@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-BR" id="htmlRoot">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gluten-Free Zone · Café & Bakery — 100% Sem Glúten, Artesanal</title>
+<meta name="description" content="Confeitaria artesanal 100% sem glúten. Bolos, pães, brigadeiros, tortas e cafés especiais feitos à mão, sob encomenda, com ingredientes selecionados. Live freely, enjoy fully.">
+<meta property="og:title" content="Gluten-Free Zone · Café & Bakery">
+<meta property="og:description" content="O verdadeiro sabor de uma vida sem glúten. Artesanal, premium, feito com amor.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/cake-morango-hero.jpg">
+<meta name="theme-color" content="#141210">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Bakery","name":"Gluten-Free Zone","description":"Cafeteria e padaria 100% sem glúten, artesanal e premium.","servesCuisine":"Gluten-Free","slogan":"Live freely, enjoy fully.","image":"img/cake-morango-hero.jpg"}
+</script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="img/logo-light.png" alt="Gluten-Free Zone">
+      <span><b>Gluten-Free Zone</b><span data-i18n="nav.tagline">Café &amp; Bakery</span></span>
+    </a>
+    <div class="nav-links" id="navlinks">
+      <a href="#sobre" data-i18n="nav.about">Sobre</a>
+      <a href="#pilares" data-i18n="nav.pillars">Diferenciais</a>
+      <a href="#cardapio" data-i18n="nav.menu">Cardápio</a>
+      <a href="#galeria" data-i18n="nav.gallery">Galeria</a>
+      <a href="#contato" data-i18n="nav.contact">Contato</a>
+      <a href="#contato" class="nav-cta" data-i18n="nav.cta">Fazer pedido</a>
+    </div>
+    <div class="nav-actions">
+      <div class="langsw" role="group" aria-label="Idioma">
+        <button type="button" data-lang="pt" class="active">PT</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <div class="burger" id="burger"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-bg"><img src="img/cake-morango-hero.jpg" alt="Bolo de morango sem glúten"></div>
+  <div class="wrap hero-inner">
+    <img src="img/logo-light.png" class="hero-badge" alt="Selo Gluten-Free Zone">
+    <h1 data-i18n-html="hero.title">O verdadeiro sabor de uma vida <em>sem glúten</em>.</h1>
+    <p class="hero-sub" data-i18n="hero.sub">Cafés especiais, bolos, pães e sobremesas preparados artesanalmente, com ingredientes selecionados, para quem não abre mão de qualidade — nem de prazer.</p>
+    <div class="hero-actions">
+      <a href="#cardapio" class="btn btn-gold"><span data-i18n="hero.cta1">Conheça nosso cardápio</span> <span class="arw">→</span></a>
+      <a href="#contato" class="btn btn-ghost" data-i18n="hero.cta2">Faça seu pedido</a>
+    </div>
+  </div>
+  <div class="hero-tag" data-i18n-html="hero.tag">Live freely, enjoy fully.<span>Café &amp; Bakery · 100% Gluten-Free</span></div>
+  <div class="scroll-hint"><div class="dot"></div></div>
+</header>
+
+<!-- MARQUEE STRIP -->
+<div class="strip">
+  <div class="marquee" id="marquee">
+    <!-- preenchido via JS a partir do dicionário -->
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about pad" id="sobre">
+  <div class="wrap about-grid">
+    <div class="about-media reveal">
+      <img src="img/logo-dark-badge.png" class="seal" alt="">
+      <img src="img/cake-choco-branco.jpg" class="m1" alt="Bolo de chocolate artesanal sem glúten">
+      <img src="img/pao-sementes.jpg" class="m2" alt="Pão artesanal sem glúten com sementes">
+    </div>
+    <div class="about-copy">
+      <span class="eyebrow reveal" data-i18n="about.eyebrow">Nossa história</span>
+      <h2 class="reveal d1" data-i18n-html="about.title">Um lugar onde <em>viver sem glúten</em>, nunca significou abrir mão do prazer de comer.</h2>
+      <p class="reveal d1" data-i18n="about.p1">A Gluten-Free Zone nasceu de uma convicção simples: comida sem glúten pode — e deve — ser extraordinária. Cada receita é desenvolvida do zero, artesanalmente, sem atalhos e sem contaminação.</p>
+      <p class="reveal d2" data-i18n="about.p2">Selecionamos ingredientes limpos e naturais, testamos cada fornada e preparamos cafés especiais que fazem justiça ao que sai do nosso forno. É gastronomia de verdade, pensada para quem valoriza sabor, qualidade e bem-estar em partes iguais.</p>
+      <p class="sig reveal d2" data-i18n="about.sig">Feito com amor, 100% sem glúten.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PILLARS / DIFERENCIAIS -->
+<section class="pillars pad" id="pilares">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow center reveal" data-i18n="pillars.eyebrow">Por que a Gluten-Free Zone</span>
+      <h2 class="reveal d1" data-i18n-html="pillars.title">Quatro promessas em <em>cada mordida</em>.</h2>
+    </div>
+    <div class="pgrid">
+      <div class="pcard reveal">
+        <span class="pnum">01</span>
+        <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="24" cy="24" r="19"/><path d="M14 34 34 14"/><path d="M24 12c0 4-3 6-3 9m6 0c0-3-3-5-3-9m0 15c0 4 3 6 3 9m-6 0c0-3 3-5 3-9"/></svg></div>
+        <h3 data-i18n="pillars.p1.h">100% Sem Glúten</h3>
+        <p data-i18n="pillars.p1.p">Cozinha livre de contaminação cruzada, do primeiro ingrediente ao acabamento final.</p>
+      </div>
+      <div class="pcard reveal d1">
+        <span class="pnum">02</span>
+        <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M24 40C10 30 6 22 6 16a10 10 0 0 1 18-6 10 10 0 0 1 18 6c0 6-4 14-18 24Z"/></svg></div>
+        <h3 data-i18n="pillars.p2.h">Feito com Amor</h3>
+        <p data-i18n="pillars.p2.p">Produção artesanal em pequenos lotes, com o cuidado de quem cozinha para a própria família.</p>
+      </div>
+      <div class="pcard reveal d2">
+        <span class="pnum">03</span>
+        <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M24 42c0-12 6-20 18-22C40 32 34 42 24 42Z"/><path d="M24 42C24 30 18 22 6 20c2 12 8 22 18 22Z"/><path d="M24 42V24"/></svg></div>
+        <h3 data-i18n="pillars.p3.h">Ingredientes Limpos</h3>
+        <p data-i18n="pillars.p3.p">Seleção rigorosa de matérias-primas naturais, sem excessos e sem o que você não precisa.</p>
+      </div>
+      <div class="pcard reveal d3">
+        <span class="pnum">04</span>
+        <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="24" cy="11" r="5"/><path d="M24 18v14m0 0-9 12m9-12 9 12M12 24h24"/></svg></div>
+        <h3 data-i18n="pillars.p4.h">Uma Vida Mais Leve</h3>
+        <p data-i18n="pillars.p4.p">Para quem quer comer bem e viver melhor — sem culpa, sem restrição de sabor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU / CARDÁPIO -->
+<section class="menu pad" id="cardapio">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow reveal" data-i18n="menu.eyebrow">Nosso cardápio</span>
+        <h2 class="reveal d1" data-i18n-html="menu.title">Doçura artesanal, <em>sem exceção</em>.</h2>
+      </div>
+      <a href="#contato" class="btn btn-dark reveal d1"><span data-i18n="menu.cta">Pedir pelo WhatsApp</span> <span class="arw">→</span></a>
+    </div>
+    <div class="mgrid">
+
+      <article class="mcard reveal">
+        <div class="mcard-img"><span class="mcard-tag" data-i18n="menu.tag.signature">Assinatura</span><img src="img/cake-morango-hero.jpg" alt="Strawberry Cake"></div>
+        <div class="mcard-body">
+          <h3 data-i18n="menu.i1.h">Torta de Morango e Ninho</h3>
+          <p data-i18n="menu.i1.p">Nido milk, morangos frescos e casquinha de chocolate branco. O clássico da casa, feito com amor.</p>
+          <a href="#contato" class="mlink"><span data-i18n="menu.order">Encomendar</span> <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="mcard reveal d1">
+        <div class="mcard-img"><span class="mcard-tag" data-i18n="menu.tag.cakes">Bolos</span><img src="img/bolo-coco-choco.jpg" alt="Bolo especial de chocolate e coco"></div>
+        <div class="mcard-body">
+          <h3 data-i18n="menu.i2.h">Bolos Especiais</h3>
+          <p data-i18n="menu.i2.p">Chocolate, doce de leite e caramelo com coberturas generosas. Do café da tarde à comemoração.</p>
+          <a href="#contato" class="mlink"><span data-i18n="menu.order">Encomendar</span> <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="mcard reveal d2">
+        <div class="mcard-img"><span class="mcard-tag" data-i18n="menu.tag.sweets">Doces</span><img src="img/brigadeiros-beijinhos-combo.jpg" alt="Brigadeiros e beijinhos gourmet"></div>
+        <div class="mcard-body">
+          <h3 data-i18n="menu.i3.h">Brigadeiros &amp; Beijinhos</h3>
+          <p data-i18n="menu.i3.p">Docinhos gourmet em bandejas para festas e presentes. Cada um enrolado à mão, um por um.</p>
+          <a href="#contato" class="mlink"><span data-i18n="menu.order">Encomendar</span> <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="mcard reveal">
+        <div class="mcard-img"><span class="mcard-tag" data-i18n="menu.tag.bakery">Padaria</span><img src="img/pao-abobora.jpg" alt="Pão de abóbora sem glúten"></div>
+        <div class="mcard-body">
+          <h3 data-i18n="menu.i4.h">Pães Artesanais</h3>
+          <p data-i18n="menu.i4.p">Pão de abóbora, entre tantas outras receitas de sabores. Frescos, leves e do jeito que pão deveria ser.</p>
+          <a href="#contato" class="mlink"><span data-i18n="menu.order">Encomendar</span> <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="mcard reveal d1">
+        <div class="mcard-img"><span class="mcard-tag" data-i18n="menu.tag.desserts">Sobremesas</span><img src="img/bolo-maca-canela.jpg" alt="Bolo de maçã e canela"></div>
+        <div class="mcard-body">
+          <h3 data-i18n="menu.i5.h">Bolos Caseiros</h3>
+          <p data-i18n="menu.i5.p">Rosca de canela, cookies e a nostalgia da cozinha da vó — reinventada 100% sem glúten.</p>
+          <a href="#contato" class="mlink"><span data-i18n="menu.order">Encomendar</span> <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="mcard reveal d2">
+        <div class="mcard-img"><span class="mcard-tag" data-i18n="menu.tag.savory">Salgados</span><img src="img/torta-salgada-nova.jpg" alt="Torta salgada com batata palha"></div>
+        <div class="mcard-body">
+          <h3 data-i18n="menu.i6.h">Tortas &amp; Sanduíches</h3>
+          <p data-i18n="menu.i6.p">Torta salgada com batata palha, sanduíches gourmet e opções salgadas para o almoço leve do dia a dia.</p>
+          <a href="#contato" class="mlink"><span data-i18n="menu.order">Encomendar</span> <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="mcard reveal">
+        <div class="mcard-img"><span class="mcard-tag" data-i18n="menu.tag.events">Eventos</span><img src="img/buffet-mesa.jpg" alt="Mesa de buffet sem glúten"></div>
+        <div class="mcard-body">
+          <h3 data-i18n="menu.i7.h">Mesas &amp; Buffets</h3>
+          <p data-i18n="menu.i7.p">Mesas completas para festas e reuniões — salgados, tábuas e doces, tudo 100% sem glúten.</p>
+          <a href="#eventos" class="mlink"><span data-i18n="menu.order2">Saiba mais</span> <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="mcard reveal d1">
+        <div class="mcard-img"><span class="mcard-tag" data-i18n="menu.tag.savory2">Salgados</span><img src="img/hamburgueria.jpg" alt="Hambúrguer artesanal sem glúten"></div>
+        <div class="mcard-body">
+          <h3 data-i18n="menu.i8.h">Hamburgueria</h3>
+          <p data-i18n="menu.i8.p">Hambúrgueres artesanais em pão sem glúten, com ingredientes selecionados — sabor de lanche de verdade.</p>
+          <a href="#contato" class="mlink"><span data-i18n="menu.order">Encomendar</span> <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="mcard reveal d2">
+        <div class="mcard-img"><span class="mcard-tag" data-i18n="menu.tag.sweets2">Doces</span><img src="img/biscoito-magico.jpg" alt="Biscoito mágico de coco e leite condensado"></div>
+        <div class="mcard-body">
+          <h3 data-i18n="menu.i9.h">Biscoitos Mágicos</h3>
+          <p data-i18n="menu.i9.p">Biscoito de coco e leite condensado, macio por dentro e levemente crocante por fora. Vicia na primeira mordida.</p>
+          <a href="#contato" class="mlink"><span data-i18n="menu.order">Encomendar</span> <span class="arw">→</span></a>
+        </div>
+      </article>
+
+    </div>
+    <p class="menu-note reveal" data-i18n="menu.note" style="text-align:center;margin-top:44px;color:#8a8074;font-family:var(--serif);font-style:italic;font-size:1.05rem">Valores sob consulta — fale com a gente para saber preços e disponibilidade.</p>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery pad" id="galeria">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow center reveal" data-i18n="gallery.eyebrow">Do nosso forno</span>
+      <h2 class="reveal d1" data-i18n-html="gallery.title">Cada peça, uma pequena <em>obra de arte</em>.</h2>
+    </div>
+    <div class="masonry reveal">
+      <figure><img src="img/bolo-morango-real1.jpg" alt="Bolo de morango e limão"><figcaption data-i18n="gallery.c1">Bolo de limão com morangos frescos</figcaption></figure>
+      <figure><img src="img/hamburger-artesanal.jpg" alt="Hambúrguer artesanal sem glúten"><figcaption data-i18n="gallery.c2">Sanduíche artesanal gourmet</figcaption></figure>
+      <figure><img src="img/pao-de-queijo.jpg" alt="Pão de queijo"><figcaption data-i18n="gallery.c3">Pão de queijo com goiabada</figcaption></figure>
+      <figure><img src="img/cake-choco-mesa.jpg" alt="Bolo de chocolate"><figcaption data-i18n="gallery.c4">Bolo de chocolate premium</figcaption></figure>
+      <figure><img src="img/bolo-aniversario.jpg" alt="Bolo de aniversário personalizado"><figcaption data-i18n="gallery.c5">Bolos personalizados sob encomenda</figcaption></figure>
+      <figure><img src="img/beijinho-espresso.jpg" alt="Doces com espresso"><figcaption data-i18n="gallery.c6">Café especial &amp; docinhos</figcaption></figure>
+      <figure><img src="img/torta-salgada2.jpg" alt="Torta salgada"><figcaption data-i18n="gallery.c7">Torta de batata palha</figcaption></figure>
+      <figure><img src="img/tabua-frios.jpg" alt="Tábua de frios sem glúten"><figcaption data-i18n="gallery.c8">Tábuas para compartilhar</figcaption></figure>
+      <figure><img src="img/cafe-da-manha.jpg" alt="Café da manhã"><figcaption data-i18n="gallery.c9">Café da manhã completo</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- BUFFET & EVENTOS -->
+<section class="buffet pad" id="eventos">
+  <div class="wrap buffet-grid">
+    <div class="buffet-copy">
+      <span class="eyebrow reveal" data-i18n="buffet.eyebrow">Para ocasiões especiais</span>
+      <h2 class="reveal d1" data-i18n-html="buffet.title">Sua mesa de festa, <em>sem preocupação</em>.</h2>
+      <p class="reveal d1" data-i18n="buffet.p1">Aniversários, reuniões, chás de bebê ou apenas uma tarde especial com amigos — montamos mesas completas 100% sem glúten, do salgado à sobremesa, para todo mundo comer sem restrição.</p>
+      <p class="reveal d2" data-i18n="buffet.p2">Mini sanduíches, tábuas de frios, quiches, salgados assados e doces variados — tudo pensado para servir em grupo, com a mesma qualidade artesanal de sempre.</p>
+      <a href="#contato" class="btn btn-dark reveal d2"><span data-i18n="buffet.cta">Solicitar orçamento de evento</span> <span class="arw">→</span></a>
+    </div>
+    <div class="buffet-media reveal d1">
+      <img src="img/buffet-mesa.jpg" class="b1" alt="Mesa de buffet sem glúten para eventos">
+      <img src="img/tabua-frios.jpg" class="b2" alt="Tábua de frios sem glúten">
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE BAND -->
+<section class="exp pad">
+  <div class="exp-bg"><img src="img/beijinho-espresso.jpg" alt=""></div>
+  <div class="wrap exp-inner reveal">
+    <span class="eyebrow center" data-i18n="exp.eyebrow">A experiência Gluten-Free Zone</span>
+    <h2 data-i18n-html="exp.title">Cuidado que você <em>sente</em> — e prova.</h2>
+    <div class="exp-row">
+      <div class="exp-item"><div class="n">01</div><h4 data-i18n="exp.i1.h">Feito com carinho</h4><p data-i18n="exp.i1.p">Cada receita preparada à mão, em pequenos lotes.</p></div>
+      <div class="exp-item"><div class="n">02</div><h4 data-i18n="exp.i2.h">Ingredientes naturais</h4><p data-i18n="exp.i2.p">Seleção limpa, sem aditivos desnecessários.</p></div>
+      <div class="exp-item"><div class="n">03</div><h4 data-i18n="exp.i3.h">Sem contaminação</h4><p data-i18n="exp.i3.p">Cozinha 100% dedicada ao sem glúten.</p></div>
+      <div class="exp-item"><div class="n">04</div><h4 data-i18n="exp.i4.h">Qualidade artesanal</h4><p data-i18n="exp.i4.p">Padrão premium do forno à sua mesa.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi pad">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow center reveal" data-i18n="testi.eyebrow">Quem prova, volta</span>
+      <h2 class="reveal d1" data-i18n-html="testi.title">Histórias que nos <em>enchem de orgulho</em>.</h2>
+    </div>
+    <div class="tgrid">
+      <div class="tcard reveal">
+        <div class="quote">"</div>
+        <div class="stars">★★★★★</div>
+        <p data-i18n="testi.t1.p">Depois de anos sem comer bolo por causa da celíaca, encontrei uma marca que faz sobremesa de verdade. Chorei na primeira mordida.</p>
+        <div class="tperson"><div class="av">M</div><div><b>Mariana Alves</b><span data-i18n="testi.t1.loc">Curitiba, PR</span></div></div>
+      </div>
+      <div class="tcard reveal d1">
+        <div class="quote">"</div>
+        <div class="stars">★★★★★</div>
+        <p data-i18n="testi.t2.p">Encomendei o Strawberry Cake para o aniversário da minha filha. Ninguém percebeu que era sem glúten — só que era o melhor da festa.</p>
+        <div class="tperson"><div class="av">R</div><div><b>Rafael Souza</b><span data-i18n="testi.t2.loc">São Paulo, SP</span></div></div>
+      </div>
+      <div class="tcard reveal d2">
+        <div class="quote">"</div>
+        <div class="stars">★★★★★</div>
+        <p data-i18n="testi.t3.p">Os pães são leves de um jeito que eu não achava possível sem glúten. Já virou pedido fixo lá em casa toda semana.</p>
+        <div class="tperson"><div class="av">C</div><div><b>Camila Ribeiro</b><span data-i18n="testi.t3.loc">Belo Horizonte, MG</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta pad" id="contato">
+  <div class="cta-bg"><img src="img/cake-doce-leite.jpg" alt=""></div>
+  <div class="wrap cta-inner reveal">
+    <img src="img/logo-dark-badge.png" class="seal" alt="">
+    <h2 data-i18n-html="cta.title">Sua próxima <em>doçura</em> começa aqui.</h2>
+    <p data-i18n="cta.p">Encomende bolos, docinhos, pães e salgados — feitos na hora, com amor, 100% sem glúten.</p>
+    <div class="cta-actions">
+      <a href="https://wa.me/5500000000000" class="btn btn-gold"><span data-i18n="cta.btn1">Fazer pedido no WhatsApp</span> <span class="arw">→</span></a>
+      <a href="#cardapio" class="btn btn-ghost" data-i18n="cta.btn2">Ver o cardápio</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fbrand">
+        <div class="flogo">
+          <img src="img/logo-dark-badge.png" alt="Gluten-Free Zone">
+          <span><b>Gluten-Free Zone</b><span data-i18n="nav.tagline">Café &amp; Bakery</span></span>
+        </div>
+        <p data-i18n="footer.slogan">Live freely, enjoy fully.</p>
+      </div>
+      <div class="fcol">
+        <h5 data-i18n="footer.nav">Navegar</h5>
+        <a href="#sobre" data-i18n="nav.about">Sobre</a>
+        <a href="#pilares" data-i18n="nav.pillars">Diferenciais</a>
+        <a href="#cardapio" data-i18n="nav.menu">Cardápio</a>
+        <a href="#galeria" data-i18n="nav.gallery">Galeria</a>
+      </div>
+      <div class="fcol">
+        <h5 data-i18n="footer.hours">Atendimento</h5>
+        <p data-i18n="footer.h1">Seg — Sex · 8h às 19h</p>
+        <p data-i18n="footer.h2">Sábado · 8h às 18h</p>
+        <p data-i18n="footer.h3">Domingo · 9h às 14h</p>
+      </div>
+      <div class="fcol">
+        <h5 data-i18n="footer.contact">Contato</h5>
+        <p data-i18n="footer.address">Pedidos por encomenda — retirada ou entrega combinada</p>
+        <a href="tel:+5500000000000">(00) 0000-0000</a>
+        <a href="mailto:contato@glutenfreezone.com">contato@glutenfreezone.com</a>
+        <a href="https://wa.me/5500000000000" class="wa"><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 .9-2.2.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.5c-.2.2-.3.4-.1.7.5.8 1 1.4 1.8 2 .3.2.5.2.7 0l.7-.8c.2-.2.3-.2.6-.1l1.8.9c.2.1.4.2.4.3.1.2.1.7-.1 1.2Z"/></svg> <span data-i18n="footer.wa">Chamar no WhatsApp</span></a>
+        <div class="fsocial">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V5h-3c-2.2 0-4 1.8-4 4v2H7v4h3v6h4v-6h3l1-4h-4V9c0-.6.4-1 1-1Z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="fbar">
+      <span data-i18n="footer.rights">© 2026 Gluten-Free Zone · Café &amp; Bakery. Todos os direitos reservados.</span>
+      <span class="tag" data-i18n="footer.slogan">Live freely, enjoy fully.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lb"><span class="lb-close" id="lbClose">×</span><img id="lbImg" src="" alt=""></div>
+
+<script>
+/* ---------- i18n dictionary ---------- */
+const I18N = {
+  pt: {
+    "nav.tagline":"Café &amp; Bakery","nav.about":"Sobre","nav.pillars":"Diferenciais","nav.menu":"Cardápio","nav.gallery":"Galeria","nav.contact":"Contato","nav.cta":"Fazer pedido",
+    "hero.title":"O verdadeiro sabor de uma vida <em>sem glúten</em>.",
+    "hero.sub":"Cafés especiais, bolos, pães e sobremesas preparados artesanalmente, com ingredientes selecionados, para quem não abre mão de qualidade — nem de prazer.",
+    "hero.cta1":"Conheça nosso cardápio","hero.cta2":"Faça seu pedido",
+    "hero.tag":"Live freely, enjoy fully.<span>Café &amp; Bakery · 100% Gluten-Free</span>",
+    "marquee":["100% Sem Glúten","Feito com Amor","Ingredientes Selecionados","Produção Artesanal","Café Especial","Produtos Frescos"],
+    "about.eyebrow":"Nossa história",
+    "about.title":"Um lugar onde <em>viver sem glúten</em>, nunca significou abrir mão do prazer de comer.",
+    "about.p1":"A Gluten-Free Zone nasceu de uma convicção simples: comida sem glúten pode — e deve — ser extraordinária. Cada receita é desenvolvida do zero, artesanalmente, sem atalhos e sem contaminação.",
+    "about.p2":"Selecionamos ingredientes limpos e naturais, testamos cada fornada e preparamos cafés especiais que fazem justiça ao que sai do nosso forno. É gastronomia de verdade, pensada para quem valoriza sabor, qualidade e bem-estar em partes iguais.",
+    "about.sig":"Feito com amor, 100% sem glúten.",
+    "pillars.eyebrow":"Por que a Gluten-Free Zone","pillars.title":"Quatro promessas em <em>cada mordida</em>.",
+    "pillars.p1.h":"100% Sem Glúten","pillars.p1.p":"Cozinha livre de contaminação cruzada, do primeiro ingrediente ao acabamento final.",
+    "pillars.p2.h":"Feito com Amor","pillars.p2.p":"Produção artesanal em pequenos lotes, com o cuidado de quem cozinha para a própria família.",
+    "pillars.p3.h":"Ingredientes Limpos","pillars.p3.p":"Seleção rigorosa de matérias-primas naturais, sem excessos e sem o que você não precisa.",
+    "pillars.p4.h":"Uma Vida Mais Leve","pillars.p4.p":"Para quem quer comer bem e viver melhor — sem culpa, sem restrição de sabor.",
+    "menu.eyebrow":"Nosso cardápio","menu.title":"Doçura artesanal, <em>sem exceção</em>.","menu.cta":"Pedir pelo WhatsApp","menu.order":"Encomendar","menu.order2":"Saiba mais",
+    "menu.tag.signature":"Assinatura","menu.tag.cakes":"Bolos","menu.tag.sweets":"Doces","menu.tag.bakery":"Padaria","menu.tag.desserts":"Sobremesas","menu.tag.savory":"Salgados","menu.tag.events":"Eventos","menu.tag.savory2":"Salgados","menu.tag.sweets2":"Doces",
+    "menu.i1.h":"Torta de Morango e Ninho","menu.i1.p":"Nido milk, morangos frescos e casquinha de chocolate branco. O clássico da casa, feito com amor.",
+    "menu.i2.h":"Bolos Especiais","menu.i2.p":"Chocolate, doce de leite e caramelo com coberturas generosas. Do café da tarde à comemoração.",
+    "menu.i3.h":"Brigadeiros &amp; Beijinhos","menu.i3.p":"Docinhos gourmet em bandejas para festas e presentes. Cada um enrolado à mão, um por um.",
+    "menu.i4.h":"Pães Artesanais","menu.i4.p":"Pão de abóbora, entre tantas outras receitas de sabores. Frescos, leves e do jeito que pão deveria ser.",
+    "menu.i5.h":"Bolos Caseiros","menu.i5.p":"Rosca de canela, cookies e a nostalgia da cozinha da vó — reinventada 100% sem glúten.",
+    "menu.i6.h":"Tortas &amp; Sanduíches","menu.i6.p":"Torta salgada com batata palha, sanduíches gourmet e opções salgadas para o almoço leve do dia a dia.",
+    "menu.i7.h":"Mesas &amp; Buffets","menu.i7.p":"Mesas completas para festas e reuniões — salgados, tábuas e doces, tudo 100% sem glúten.",
+    "menu.i8.h":"Hamburgueria","menu.i8.p":"Hambúrgueres artesanais em pão sem glúten, com ingredientes selecionados — sabor de lanche de verdade.",
+    "menu.i9.h":"Biscoitos Mágicos","menu.i9.p":"Biscoito de coco e leite condensado, macio por dentro e levemente crocante por fora. Vicia na primeira mordida.",
+    "menu.note":"Valores sob consulta — fale com a gente para saber preços e disponibilidade.",
+    "gallery.eyebrow":"Do nosso forno","gallery.title":"Cada peça, uma pequena <em>obra de arte</em>.",
+    "gallery.c1":"Bolo de limão com morangos frescos","gallery.c2":"Sanduíche artesanal gourmet","gallery.c3":"Pão de queijo com goiabada","gallery.c4":"Bolo de chocolate premium","gallery.c5":"Bolos personalizados sob encomenda","gallery.c6":"Café especial &amp; docinhos","gallery.c7":"Torta de batata palha","gallery.c8":"Tábuas para compartilhar","gallery.c9":"Café da manhã completo",
+    "buffet.eyebrow":"Para ocasiões especiais","buffet.title":"Sua mesa de festa, <em>sem preocupação</em>.",
+    "buffet.p1":"Aniversários, reuniões, chás de bebê ou apenas uma tarde especial com amigos — montamos mesas completas 100% sem glúten, do salgado à sobremesa, para todo mundo comer sem restrição.",
+    "buffet.p2":"Mini sanduíches, tábuas de frios, quiches, salgados assados e doces variados — tudo pensado para servir em grupo, com a mesma qualidade artesanal de sempre.",
+    "buffet.cta":"Solicitar orçamento de evento",
+    "exp.eyebrow":"A experiência Gluten-Free Zone","exp.title":"Cuidado que você <em>sente</em> — e prova.",
+    "exp.i1.h":"Feito com carinho","exp.i1.p":"Cada receita preparada à mão, em pequenos lotes.",
+    "exp.i2.h":"Ingredientes naturais","exp.i2.p":"Seleção limpa, sem aditivos desnecessários.",
+    "exp.i3.h":"Sem contaminação","exp.i3.p":"Cozinha 100% dedicada ao sem glúten.",
+    "exp.i4.h":"Qualidade artesanal","exp.i4.p":"Padrão premium do forno à sua mesa.",
+    "testi.eyebrow":"Quem prova, volta","testi.title":"Histórias que nos <em>enchem de orgulho</em>.",
+    "testi.t1.p":"Depois de anos sem comer bolo por causa da celíaca, encontrei uma marca que faz sobremesa de verdade. Chorei na primeira mordida.","testi.t1.loc":"Curitiba, PR",
+    "testi.t2.p":"Encomendei o Strawberry Cake para o aniversário da minha filha. Ninguém percebeu que era sem glúten — só que era o melhor da festa.","testi.t2.loc":"São Paulo, SP",
+    "testi.t3.p":"Os pães são leves de um jeito que eu não achava possível sem glúten. Já virou pedido fixo lá em casa toda semana.","testi.t3.loc":"Belo Horizonte, MG",
+    "cta.title":"Sua próxima <em>doçura</em> começa aqui.","cta.p":"Encomende bolos, docinhos, pães e salgados — feitos na hora, com amor, 100% sem glúten.",
+    "cta.btn1":"Fazer pedido no WhatsApp","cta.btn2":"Ver o cardápio",
+    "footer.slogan":"Live freely, enjoy fully.","footer.nav":"Navegar","footer.hours":"Atendimento",
+    "footer.h1":"Seg — Sex · 8h às 19h","footer.h2":"Sábado · 8h às 18h","footer.h3":"Domingo · 9h às 14h",
+    "footer.contact":"Contato","footer.address":"Pedidos por encomenda — retirada ou entrega combinada","footer.wa":"Chamar no WhatsApp",
+    "footer.rights":"© 2026 Gluten-Free Zone · Café &amp; Bakery. Todos os direitos reservados."
+  },
+  en: {
+    "nav.tagline":"Café &amp; Bakery","nav.about":"About","nav.pillars":"Why Us","nav.menu":"Menu","nav.gallery":"Gallery","nav.contact":"Contact","nav.cta":"Order now",
+    "hero.title":"The true taste of a <em>gluten-free</em> life.",
+    "hero.sub":"Specialty coffee, cakes, breads and desserts made by hand with carefully selected ingredients, for those who won't compromise on quality — or pleasure.",
+    "hero.cta1":"Explore our menu","hero.cta2":"Place an order",
+    "hero.tag":"Live freely, enjoy fully.<span>Café &amp; Bakery · 100% Gluten-Free</span>",
+    "marquee":["100% Gluten-Free","Made with Love","Selected Ingredients","Artisan Production","Specialty Coffee","Fresh Products"],
+    "about.eyebrow":"Our story",
+    "about.title":"A place where <em>living gluten-free</em> never meant giving up pleasure.",
+    "about.p1":"Gluten-Free Zone was born from a simple belief: gluten-free food can — and should — be extraordinary. Every recipe is developed from scratch, by hand, with no shortcuts and no cross-contamination.",
+    "about.p2":"We select clean, natural ingredients, test every batch, and prepare specialty coffee that does justice to what comes out of our oven. This is real gastronomy, made for those who value flavour, quality and wellbeing in equal measure.",
+    "about.sig":"Made with love, 100% gluten-free.",
+    "pillars.eyebrow":"Why Gluten-Free Zone","pillars.title":"Four promises in <em>every bite</em>.",
+    "pillars.p1.h":"100% Gluten-Free","pillars.p1.p":"A kitchen free from cross-contamination, from the first ingredient to the final touch.",
+    "pillars.p2.h":"Made with Love","pillars.p2.p":"Artisan production in small batches, with the same care you'd give your own family.",
+    "pillars.p3.h":"Clean Ingredients","pillars.p3.p":"Rigorous selection of natural ingredients — no excess, nothing you don't need.",
+    "pillars.p4.h":"A Lighter Life","pillars.p4.p":"For those who want to eat well and live better — no guilt, no compromise on flavour.",
+    "menu.eyebrow":"Our menu","menu.title":"Artisan sweetness, <em>no exceptions</em>.","menu.cta":"Order on WhatsApp","menu.order":"Order now","menu.order2":"Learn more",
+    "menu.tag.signature":"Signature","menu.tag.cakes":"Cakes","menu.tag.sweets":"Sweets","menu.tag.bakery":"Bakery","menu.tag.desserts":"Desserts","menu.tag.savory":"Savoury","menu.tag.events":"Events","menu.tag.savory2":"Savoury","menu.tag.sweets2":"Sweets",
+    "menu.i1.h":"Strawberry &amp; Nido Milk Cake","menu.i1.p":"Nido milk, fresh strawberries and a white chocolate shell. The house classic, made with love.",
+    "menu.i2.h":"Signature Cakes","menu.i2.p":"Chocolate, dulce de leche and caramel with generous toppings. From afternoon tea to celebrations.",
+    "menu.i3.h":"Brigadeiros &amp; Coconut Truffles","menu.i3.p":"Gourmet sweets on trays for parties and gifts. Hand-rolled, one by one.",
+    "menu.i4.h":"Artisan Breads","menu.i4.p":"Pumpkin bread, among many other flavour recipes. Fresh, light, the way bread should be.",
+    "menu.i5.h":"Homestyle Cakes","menu.i5.p":"Cinnamon wreath cake, cookies and the nostalgia of grandma's kitchen — reinvented 100% gluten-free.",
+    "menu.i6.h":"Savoury Pies &amp; Sandwiches","menu.i6.p":"Shoestring potato pie, gourmet sandwiches and light savoury options for everyday lunch.",
+    "menu.i7.h":"Buffet Tables","menu.i7.p":"Full spreads for parties and gatherings — savouries, boards and sweets, all 100% gluten-free.",
+    "menu.i8.h":"Burger House","menu.i8.p":"Artisan burgers on gluten-free buns, with carefully selected ingredients — real burger flavour.",
+    "menu.i9.h":"Magic Cookies","menu.i9.p":"Coconut and condensed milk cookies, soft on the inside and lightly crisp outside. Addictive from the first bite.",
+    "menu.note":"Prices available on request — get in touch for pricing and availability.",
+    "gallery.eyebrow":"From our oven","gallery.title":"Every piece, a small <em>work of art</em>.",
+    "gallery.c1":"Lemon cake with fresh strawberries","gallery.c2":"Artisan gourmet sandwich","gallery.c3":"Cheese bread with guava","gallery.c4":"Premium chocolate cake","gallery.c5":"Custom cakes to order","gallery.c6":"Specialty coffee &amp; sweets","gallery.c7":"Shoestring potato pie","gallery.c8":"Sharing boards","gallery.c9":"Full breakfast spread",
+    "buffet.eyebrow":"For special occasions","buffet.title":"Your party table, <em>worry-free</em>.",
+    "buffet.p1":"Birthdays, gatherings, baby showers or just a special afternoon with friends — we put together full 100% gluten-free spreads, from savouries to dessert, so everyone can eat without restriction.",
+    "buffet.p2":"Mini sandwiches, sharing boards, quiches, savoury pastries and an assortment of sweets — all designed for groups, with the same artisan quality as always.",
+    "buffet.cta":"Request an event quote",
+    "exp.eyebrow":"The Gluten-Free Zone experience","exp.title":"Care you can <em>feel</em> — and taste.",
+    "exp.i1.h":"Made with care","exp.i1.p":"Every recipe prepared by hand, in small batches.",
+    "exp.i2.h":"Natural ingredients","exp.i2.p":"Clean selection, no unnecessary additives.",
+    "exp.i3.h":"No cross-contamination","exp.i3.p":"A kitchen 100% dedicated to gluten-free.",
+    "exp.i4.h":"Artisan quality","exp.i4.p":"Premium standard from our oven to your table.",
+    "testi.eyebrow":"Once you try it, you're back","testi.title":"Stories that make us <em>proud</em>.",
+    "testi.t1.p":"After years without cake because of coeliac disease, I found a brand that makes real dessert. I cried at the first bite.","testi.t1.loc":"Curitiba, Brazil",
+    "testi.t2.p":"I ordered the Strawberry Cake for my daughter's birthday. No one noticed it was gluten-free — they just knew it was the best cake at the party.","testi.t2.loc":"São Paulo, Brazil",
+    "testi.t3.p":"The bread is lighter than I ever thought gluten-free could be. It's become a standing order at home every week.","testi.t3.loc":"Belo Horizonte, Brazil",
+    "cta.title":"Your next <em>treat</em> starts here.","cta.p":"Order cakes, sweets, bread and savouries — made fresh, with love, 100% gluten-free.",
+    "cta.btn1":"Order on WhatsApp","cta.btn2":"View the menu",
+    "footer.slogan":"Live freely, enjoy fully.","footer.nav":"Navigate","footer.hours":"Availability",
+    "footer.h1":"Mon — Fri · 8am to 7pm","footer.h2":"Saturday · 8am to 6pm","footer.h3":"Sunday · 9am to 2pm",
+    "footer.contact":"Contact","footer.address":"Made to order — pickup or delivery arranged directly","footer.wa":"Message us on WhatsApp",
+    "footer.rights":"© 2026 Gluten-Free Zone · Café &amp; Bakery. All rights reserved."
+  }
+};
+
+function buildMarquee(lang){
+  const items = I18N[lang].marquee;
+  const row = items.map(t=>`<span>${t}</span>`).join("");
+  document.getElementById("marquee").innerHTML = row + row; // duplicado p/ loop infinito
+}
+
+function applyLang(lang){
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const key = el.getAttribute("data-i18n");
+    if(I18N[lang][key]!==undefined) el.innerHTML = I18N[lang][key];
+  });
+  document.querySelectorAll("[data-i18n-html]").forEach(el=>{
+    const key = el.getAttribute("data-i18n-html");
+    if(I18N[lang][key]!==undefined) el.innerHTML = I18N[lang][key];
+  });
+  buildMarquee(lang);
+  document.getElementById("htmlRoot").setAttribute("lang", lang==="pt"?"pt-BR":"en");
+  document.querySelectorAll(".langsw button").forEach(b=>b.classList.toggle("active", b.dataset.lang===lang));
+  localStorage.setItem && null; // no-op (sem storage no artifact)
+}
+
+document.querySelectorAll(".langsw button").forEach(btn=>{
+  btn.addEventListener("click", ()=>applyLang(btn.dataset.lang));
+});
+
+// nav scroll
+const nav=document.getElementById('nav');
+addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>60));
+// burger
+const burger=document.getElementById('burger'),links=document.getElementById('navlinks');
+burger.addEventListener('click',()=>{burger.classList.toggle('x');links.classList.toggle('open')});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{burger.classList.remove('x');links.classList.remove('open')}));
+// reveal
+const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+// lightbox
+const lb=document.getElementById('lb'),lbImg=document.getElementById('lbImg');
+document.querySelectorAll('.masonry img').forEach(img=>img.addEventListener('click',()=>{lbImg.src=img.src;lb.classList.add('open')}));
+document.getElementById('lbClose').addEventListener('click',()=>lb.classList.remove('open'));
+lb.addEventListener('click',e=>{if(e.target===lb)lb.classList.remove('open')});
+addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('open')});
+
+// init
+buildMarquee("pt");
+</script>
+</body>
+</html>
