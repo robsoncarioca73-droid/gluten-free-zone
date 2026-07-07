@@ -160,9 +160,19 @@ section{position:relative}
 .mcard-tag{position:absolute;top:14px;left:14px;background:rgba(20,18,16,.82);color:var(--gold);font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;padding:6px 13px;border-radius:100px;font-weight:500}
 .mcard-body{padding:26px 26px 30px;flex:1;display:flex;flex-direction:column}
 .mcard-body h3{font-size:1.65rem;color:var(--espresso);margin-bottom:8px}
-.mcard-body p{font-size:.88rem;color:#6a6156;margin-bottom:20px;flex:1}
+.mcard-body p{font-size:.88rem;color:#6a6156;margin-bottom:0;flex:1}
 .mlink{font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;color:var(--gold-deep);display:inline-flex;gap:9px;align-items:center;transition:.3s}
 .mlink .arw{transition:.35s}.mlink:hover .arw{transform:translateX(5px)}
+
+/* featured card (Mesas & Buffets) */
+.mcard-feature{border:1.5px solid var(--gold);position:relative}
+.mcard-feature .mcard-tag{background:var(--gold);color:var(--espresso)}
+.mcard-hint{display:block;margin-top:16px;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-deep);font-weight:500}
+
+/* menu closing block */
+.menu-close{text-align:center;margin-top:60px;padding-top:48px;border-top:1px solid var(--line);display:flex;flex-direction:column;align-items:center;gap:22px}
+.menu-close-text{font-family:var(--serif);font-style:italic;font-size:1.3rem;color:var(--espresso);max-width:44ch}
+.menu-note{display:block;font-size:.86rem;color:#8a8074;font-family:var(--serif);font-style:italic}
 
 /* ---------- buffet / events ---------- */
 .buffet{background:var(--offwhite)}
